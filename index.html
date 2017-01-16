@@ -3,7 +3,8 @@
   <head>
     <script src="os-me.js"></script>
     <script>
-    document.write(os().clientOS());
+      osObj = new os();
+      document.write(osObj.clientOS());
     </script>
   </head>
 </html>
