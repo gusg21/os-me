@@ -24,4 +24,10 @@ os.prototype = {
                 if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
 				return OSName;
 			},
+	printInfo:	function () {
+                console.log("Author: gusg21");
+		console.log("\nCreated: 2017");
+		console.log("\nHelp: https://github.com/gusg21/os-me/");
+			},
+	
 };
